@@ -15,4 +15,6 @@ add_executable(Clase14_01_26 main.cpp
         Inventario.cpp
         Inventario.h
         Horario.cpp
-        Horario.h)
+        Horario.h
+        SalaCine.cpp
+        SalaCine.h)
