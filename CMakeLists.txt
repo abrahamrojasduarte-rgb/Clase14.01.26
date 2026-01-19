@@ -13,4 +13,6 @@ add_executable(Clase14_01_26 main.cpp
         Temperaturas.cpp
         Temperaturas.h
         Inventario.cpp
-        Inventario.h)
+        Inventario.h
+        Horario.cpp
+        Horario.h)

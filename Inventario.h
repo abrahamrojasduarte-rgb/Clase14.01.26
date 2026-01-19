@@ -4,7 +4,7 @@
 
 #ifndef MAIN_CPP_INVENTARIO_H
 #define MAIN_CPP_INVENTARIO_H
-
+#include <sstream>
 
 #include <string>
 using namespace std;
