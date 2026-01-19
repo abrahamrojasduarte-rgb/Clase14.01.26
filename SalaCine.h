@@ -17,7 +17,7 @@ public:
     SalaCine();
     void reservarAsiento(int fila, int col);
     int asientosDisponibles() const;
-    bool filaCompleta(int fila) const;
+    bool filCompleta(int fila) const;
     int mejorFila() const;
     void limpiar();
     string toString();

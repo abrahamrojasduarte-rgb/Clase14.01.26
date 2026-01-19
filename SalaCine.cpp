@@ -15,18 +15,18 @@ void SalaCine::reservarAsiento(int fila, int col) {
 }
 
 int SalaCine::asientosDisponibles() const {
-    int cont = 0;
+    int conta = 0;
     for (int fila = 0; fila < FILAS; fila++) {
         for (int col = 0; col < COLUMNAS; col++) {
             if (m[fila][col] == 0) {
-                cont++;
+                conta++;
             }
         }
     }
-    return cont;
+    return conta;
 }
 
-bool SalaCine::filaCompleta(int fila) const {
+bool SalaCine::filCompleta(int fila) const {
     if (fila < 0 || fila >= FILAS) {
         return false;
     }
