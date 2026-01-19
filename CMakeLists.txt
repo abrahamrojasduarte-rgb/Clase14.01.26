@@ -9,4 +9,8 @@ add_executable(Clase14_01_26 main.cpp
         MatrizOperaciones.cpp
         MatrizOperaciones.h
         Puntuaciones.cpp
-        Puntuaciones.h)
+        Puntuaciones.h
+        Temperaturas.cpp
+        Temperaturas.h
+        Inventario.cpp
+        Inventario.h)
